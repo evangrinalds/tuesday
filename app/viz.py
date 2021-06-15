@@ -13,7 +13,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 router = APIRouter()
 
 
-@router.get('/map')
+@router.get('/viz')
 async def visual():
     # load in dataset
     DATA_PATH = 'https://raw.githubusercontent.com/evangrinalds/labs35-proofofconcept/main/data/viz.csv'
