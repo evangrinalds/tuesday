@@ -16,7 +16,7 @@ To use these interactive docs:
 """
 
 app = FastAPI(
-    title='DS API',
+    title='DS Tester API',
     description=description,
     docs_url='/',
 )
